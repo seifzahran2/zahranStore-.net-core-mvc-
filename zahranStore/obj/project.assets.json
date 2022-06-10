@@ -7493,7 +7493,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seifz\\.nuget\\packages\\": {}
+    "C:\\Users\\seifz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7504,8 +7505,12 @@
       "packagesPath": "C:\\Users\\seifz\\.nuget\\packages\\",
       "outputPath": "E:\\projects\\zahranStore\\zahranStore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\seifz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

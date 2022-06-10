@@ -15,7 +15,7 @@
               <li data-filter="*" class="filter-active">All</li>
               @foreach(var item in Model)
               {
-              <li data-filter=".@item.Icon">@item.Name</li>
+              <li data-filter="._@item.Id">@item.Name</li>
               }
             </ul>
           </div>
@@ -24,7 +24,7 @@
         <div class="row portfolio-container">
             @foreach(var item in ViewBag.Product)
             {
-              <div class="col-lg-4 col-md-6 portfolio-item @item.category.Icon">
+              <div class="col-lg-4 col-md-6 portfolio-item _@item.category.Id">
                 <div class="portfolio-wrap">
                   <img src="@item.Photo" class="img-fluid" alt="">
                   <div class="portfolio-info">
